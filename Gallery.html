@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio • Fire & Security Solutions</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f5f5f5;
+        }
+        header {
+            background: #fff;
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header img { height: 55px; }
+        nav a {
+            margin: 0 12px;
+            font-weight: 600;
+            text-decoration: none;
+            color: #111;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .gallery {
+            display: grid;
+            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="https://dummyimage.com/200x55/000/fff&text=YOUR+LOGO" alt="Logo">
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Request a Quote</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h2>Recent Installations</h2>
+    <p>A curated selection of premium fire & security system installations.</p>
+
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1604072366595-e75dc92a43a6">
+        <img src="https://images.unsplash.com/photo-1581091012184-5c8a1a4b52b5">
+        <img src="https://images.unsplash.com/photo-1581092334565-1e7a78b4a5c3">
+        <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7">
+        <img src="https://images.unsplash.com/photo-1558002038-1055907df827">
+    </div>
+</div>
+
+</body>
+</html>
